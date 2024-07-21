@@ -151,7 +151,7 @@ app.post("/logusers", async (req, res) => {
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173","https://spacetoonsongs.onrender.com"],
     methods: "POST , GET , PUT , DELETE",
     credentials: true,
   })
