@@ -1,2 +1,6 @@
 /my-project
-.env
+dev.env
+/node-modules
+config.js
+.package.json
+package-lock.json
